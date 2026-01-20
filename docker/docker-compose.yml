@@ -25,3 +25,7 @@ services:
 networks:
   redis_net:
     external:  false
+
+# volumes:
+#   myredisdata:
+#     external: false
